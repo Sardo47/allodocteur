@@ -1,0 +1,58 @@
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 11%;
+    z-index: 10;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+}
+
+.search-bar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 100px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255)!important;
+    margin-right: 5px;
+}
+
+.nav-link:hover {
+    color: rgb(3, 255, 255)!important;
+}
+
+#login {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 0.2rem 1rem!important;
+}
+
+#login:hover {
+    border: 2px solid rgb(29, 0, 97)!important;
+}
+
+.input-group>.form-control {
+    box-shadow: none !important;
+}
+
+.input-group>.form-control {
+    margin-right: 5px;
+}
+
+.btn-outline {
+    border-left: 1px solid #000;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.btn-outline:hover {
+    color: #1fce0f;
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel-inner {}
+
+.carousel-control-prev {}
